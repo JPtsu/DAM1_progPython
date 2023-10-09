@@ -1,4 +1,8 @@
-print("Dime los productos de la compra")
+print("Dime los productos de la compra separados por comas")
 list=input()
+print("Dime el numero de elementos de la lista")
+numero=int(input())
 lista=list.split(",")
-print (lista)
+for i in range(numero):
+    prod=lista[i]
+    print(prod)
