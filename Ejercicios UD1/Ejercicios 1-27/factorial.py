@@ -12,5 +12,8 @@ def factorial(num : int):
     return total
 
 numero=int(input("Dame un número: "))
-print(str(numero) + "! = " + str(factorial(numero)))
-print(factorial(numero))
+print(str(numero) + "! => " )
+while numero>1:
+    print(numero, end="* ")
+    numero=numero-1
+print (str(factorial(numero)))
