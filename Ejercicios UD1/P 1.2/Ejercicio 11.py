@@ -1,5 +1,3 @@
 print("Dime un número")
-n= (input())
-a=1
-for i in range (n):
-    print(((n*(n+a)/2)))
+n= int(input())
+print(int((n*(n+1)/2)))
